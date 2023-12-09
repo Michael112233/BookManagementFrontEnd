@@ -45,5 +45,15 @@ struct BookBasicInfo {
     var isbn: String
     var bookName: String
     var bookAuthor: String
-    var
+    var bookEdition: Int
+    var bookTheme: String
+    var bookPublishTime: Date
+    var bookProfile: String
+    var bookPrice: Double
+    var publishName: String
+}
+
+struct BorrowRecord {
+    var readerName: String
+    
 }
